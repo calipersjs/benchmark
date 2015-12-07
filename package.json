@@ -3,9 +3,6 @@
   "version": "0.0.1",
   "description": "A collection of Calipers benchmarks.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/calipersjs/benchmark.git"
@@ -15,7 +12,9 @@
     "benchmark",
     "png",
     "jpeg",
-    "pdf"
+    "pdf",
+    "gif",
+    "bmp"
   ],
   "author": "Marcus Gartner",
   "license": "MIT",
@@ -25,6 +24,8 @@
   "homepage": "https://github.com/calipersjs/benchmark#readme",
   "dependencies": {
     "calipers": "^2.0.0",
+    "calipers-bmp": "^2.0.0",
+    "calipers-gif": "^2.0.0",
     "calipers-jpeg": "^2.0.0",
     "calipers-pdf": "^2.0.0",
     "calipers-png": "^2.0.0"
