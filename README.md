@@ -1,3 +1,5 @@
+**Note: Benchmarks for calipers have been moved to the [calipersjs/calipers](https://github.com/calipersjs/calipers).**
+
 # benchmark
 
 This repository contains Calipers benchmarks for PNG, JPEG, and PDF files. It compares the performance of Calipers with shelling-out to ImageMagick and Poppler.
